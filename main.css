@@ -1,0 +1,19 @@
+
+.Titulo img{    
+    height: 60px;
+    width: 80%;
+}
+
+.Header-Container{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    background-color: black;
+    padding: 10px;
+}
+
+
+.btn-group {
+    height: 40px;
+}
+
+
