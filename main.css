@@ -1,3 +1,6 @@
+.Row-Body-Home h2{
+    color: #0138FF;
+}
 
 .Titulo img{    
     height: 60px;
@@ -170,6 +173,11 @@ footer{
         display: grid;
         grid-template-columns: 25% 75%;
         
+    }
+
+    .HomeContente{
+        display: grid;
+        grid-template-rows: 70px 450px 300px;
     }
 
     
