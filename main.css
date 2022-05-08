@@ -16,4 +16,39 @@
     height: 40px;
 }
 
+.Img-inicial img{
+    width: 100%;
+}
 
+.HomeContente{
+    display: grid;
+    grid-template-rows: 70px 250px 300px;
+}
+
+.Row-Titulo-Home h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.Row-Body-Home{
+    letter-spacing: 2px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+}
+
+.Row-foot-Home{
+   
+    padding: 10px;
+    
+    
+}
+
+.Row-foot-Home img{
+    height: 250px;
+    width: 250px;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+}
