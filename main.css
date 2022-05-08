@@ -3,17 +3,27 @@
     height: 60px;
     width: 80%;
 }
+#TituloResTab{
+    display: none;
+}
 
 .Header-Container{
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 60% 40%;
     background-color: black;
     padding: 10px;
 }
 
+#SeleccionarPage{
+    display: none;
+}
 
-.btn-group {
-    height: 40px;
+
+
+.btn-group a { 
+    background-color: #FFC306;
+    height: 38px;
+    
 }
 
 .Img-inicial img{
@@ -52,3 +62,120 @@
     margin-right: 40%;
     
 }
+
+.Lista-icons{
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.icons{
+    height: 40px;
+    width: 40px;
+}
+
+footer{
+    background-color: #FFC306;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 10px;
+    height: 60px;
+}
+
+.pafooter{
+    text-align: right;
+}
+.lista-redes ul{
+    float: right;
+    margin-right: 20px;
+    margin-right: 15px;
+}
+
+/* Medidas par Tablet*/
+@media (max-width: 720px) {
+
+  
+
+    .Header-Container{
+        display: grid;
+        grid-template-columns:  50% 50%;
+        background-color: black;
+        padding: 10px;
+    }
+
+    .Titulo img{
+        display: none;
+    }
+
+    #TituloResTab{
+        display: inline;
+        color: #FFC306;
+    }
+    
+    #seleccionable{
+        display: none;
+    }
+    
+
+
+
+
+}
+
+@media (max-width: 420px) {
+    footer{
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20px 40px;
+        width: 100%;
+        height: 90px;
+    }
+   
+
+    #Lista-Seleccion{
+        background-color: transparent;
+        width: 70px;
+    }  
+    
+    #SeleccionarPage{
+        display: inline-flex;
+
+        
+    }
+
+    #SeleccionarPage a{
+        text-decoration: none;
+        color: white;
+        display:  inline-block;
+        margin: 2px;
+    }
+    
+    #Grupo-box{
+        display: none;
+    }
+  
+    .pafooter{
+        font-size: 13px;
+        float: right;
+    }
+
+
+    .lista-redes{
+        height: 50px;        
+        padding: 3px;
+    }
+
+    .Header-Container{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        
+    }
+
+    
+
+   
+    
+  }
+
+  

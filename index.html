@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Chapines Chileros</title>
     <link rel="stylesheet" href="main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -15,20 +16,32 @@
     <header>
         <div class="Header-Container">
 
-            <div class="Logo">
-
-            </div>
             <div class="Titulo">
                 <img src="img/Titulo.png" alt="">
+                <h2 id="TituloResTab">Chapines Chileros</h2>
 
             </div>
 
-            <div class="btn-group">
+            <div class="btn-group" id="Grupo-box">
 
-                <a href="#" class="btn btn-primary active" aria-current="page">Inicio</a>
+                <a href="#" class="btn btn-primary " aria-current="page">Inicio</a>
                 <a href="#" class="btn btn-primary">Artistas</a>
                 <a href="#" class="btn btn-primary">Quines Somos?</a>
+
+
+
             </div>
+
+
+            <div id="SeleccionarPage">
+                <ul>
+                    <a href="#"  aria-current="page">Inicio</a>
+                    <a href="#" >Artistas</a>
+                    <a href="#" >Quines Somos?</a>
+                </ul>
+            </div>
+
+
 
         </div>
 
@@ -52,11 +65,13 @@
                 </p>
 
             </div>
-            <div class="Row-foot-Home">                
-                
-                    <img src="img/chapines2.PNG" alt="">
-                
-               
+
+
+            <div class="Row-foot-Home">
+
+                <img src="img/chapines2.PNG" alt="">
+
+
 
             </div>
 
@@ -64,11 +79,27 @@
         </div>
     </main>
     <footer>
+        <div class="pafooter">
+            <p> Todos lo derechos reservados ® Chapines Chileros 2022 </p>
+        </div>
+
+        <div class="lista-redes">
+            <ul class="Lista-icons">
+                <a href="https://pt-br.facebook.com/chapineschilerosSR/posts/350425689780111:0" target="_blank"><img
+                        src="img/IconFb.png" alt="" class="icons"></a>
+                <a href="https://wa.me/38687644" target="_blank"><img src="img/IconWs.png" alt="" class="icons"></a>
+               <!-- <a href="#" target="_blank"><img src="img/IconYt.png" alt="" class="icons"></a> --> 
+
+            </ul>
+        </div>
 
 
     </footer>
 
-
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
